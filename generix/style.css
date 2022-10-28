@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px){
+
+.tower{
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.techthesis{
+   height: 435px;
+   
+    padding: 20px;
+    margin-bottom: 20px
+}
+.event-image{
+    display: none;
+}
+.thesis-image{
+   
+    height: 395px;
+    width:35%;
+    background-image: url("thesisbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 50px;
+   
+}
+.event-name{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.event-description{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.wisequacks{
+    height: 435px;
+  
+    padding: 20px;
+}
+.quiz-image{
+  
+    height: 395px;
+    width:35%;
+    background-image: url("quizbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 50px;
+   
+}
+.box{
+    height: 40px;
+    width: 100%;
+    
+}
+
+.project-image{
+   
+    height: 395px;
+    width:35%;
+    background-image: url("projectbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 50px;
+   
+}
+.projectovenza{
+    height: 435px;
+  
+    padding: 20px;
+}
+
+.circuitrix{
+    height: 435px;
+   
+    padding: 20px;
+}
+.debug-image{
+ 
+    height: 395px;
+    width:35%;
+    background-image: url("debugbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 50px;
+   
+}
+
+.coupling{
+    height: 435px;
+  
+    padding: 20px;
+}
+.connection-image{
+ 
+    height: 395px;
+    width:35%;
+    background-image: url("connectionbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 30px;
+   
+}
+.contact-list{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+}
+
+ 
+@media only screen   
+and (min-width: 1200px)   
+and (max-width: 1600px) 
+{ 
+    .tower{
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.techthesis{
+   height: 435px;
+   
+    padding: 20px;
+    margin-bottom: 20px
+}
+.event-image{
+    display: none;
+}
+.thesis-image{
+   
+    height: 395px;
+    width:35%;
+    background-image: url("thesisbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 50px;
+   
+}
+.event-name{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.event-description{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.wisequacks{
+    height: 435px;
+  
+    padding: 20px;
+}
+.quiz-image{
+  
+    height: 395px;
+    width:35%;
+    background-image: url("quizbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 50px;
+   
+}
+.box{
+    height: 40px;
+    width: 100%;
+    
+}
+
+.project-image{
+   
+    height: 395px;
+    width:35%;
+    background-image: url("projectbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 50px;
+   
+}
+.projectovenza{
+    height: 435px;
+  
+    padding: 20px;
+}
+
+.circuitrix{
+    height: 435px;
+   
+    padding: 20px;
+}
+.debug-image{
+ 
+    height: 395px;
+    width:35%;
+    background-image: url("debugbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 50px;
+   
+}
+
+.coupling{
+    height: 435px;
+  
+    padding: 20px;
+}
+.connection-image{
+ 
+    height: 395px;
+    width:35%;
+    background-image: url("connectionbig.jpeg");
+    background-repeat:no-repeat ;
+   float: left;
+   margin-right: 30px;
+   
+}
+.contact-list{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:500px) {
+    .main{
+        margin-top: 20px;
+        /* background-color: blue;  */
+        height: 100%;
+        width: 100%; 
+    }
+    .event-name{
+        font-family: 'Poppins', sans-serif;
+    }
+    .techthesis{
+        padding: 20px;
+        
+    }
+    .event-image{
+        height: 40%;
+        width: 50%;
+    }
+    /* .thesis-image{
+        margin-left: 20px;
+        height: 308px; 
+        width:300px;
+        background-repeat: no-repeat;
+        background-image: url("thesis.jpeg");
+    } */
+   
+    .event-description{
+        margin: 10px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .contact{
+        margin-left: 10px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .box{
+        height: 40px;
+        width: 100%;
+        /* background-color: bisque; */
+    }
+    .wisequacks{
+        padding: 10px;
+        /* background-color: brown; */
+    }
+    /* .quiz-image{
+        margin-left: 20px;
+        height: 308px; 
+        width:300px;
+        background-repeat: no-repeat;
+        background-image: url("quiz.jpeg");
+    } */
+    .projectovenza{
+        padding: 10px;
+        /* background-color:blanchedalmond; */
+    }
+
+    /* .project-image{
+        margin-left: 20px;
+        height: 308px; 
+        width:300px;
+        background-repeat: no-repeat;
+        background-image: url("project .jpeg");
+    } */
+
+    .circuitrix{
+        padding: 10px;
+        /* background-color:yellow; */
+    }
+    /* .debug-image{
+        margin-left: 20px;
+        height: 308px; 
+        width:300px;
+        background-repeat: no-repeat;
+        background-image: url("debug.jpeg");
+    } */
+
+    .coupling{
+        padding: 10px;
+        /* background-color:green; */
+    }
+    /* .connection-image{
+        margin-left: 20px;
+        height: 308px; 
+        width:300px;
+        background-repeat: no-repeat;
+        background-image: url("connection.jpeg");
+    } */
+
+    .contact-list{
+        margin-left: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .tower{
+        display: none;
+    }
+    
+}
